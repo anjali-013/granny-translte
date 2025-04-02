@@ -1,0 +1,558 @@
+<!-- welcome pg_start -->
+<section>
+    <div class="welcome_page py_0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="wel-text">
+                        <h1 style="font-family: public sans;">Design And Build <span>The Smart way</span></h1>
+                        <p style="opacity: 50%;">{{WelcomeText}}</p>
+                        <div class="get-start-btn">
+                            <a mat-flat-button href="/" target="_blank" class="get-btn-txt">Get Started<i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="wel_sub-img">
+                        <div class="banner-img1" *ngFor="let img of images">
+                            <img [src]="img.src" [alt]="img.alt" class="img1" />
+                            <p style="font-family: public sans;">{{ img.text }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="wel-img">
+                        <img [src]="bannerImage" class="image" alt="Banner Image" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<!-- welcome pg_end -->
+
+<!-- work_page_start  -->
+<section>
+    <div class="work-page py_0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <h2>Here's how we make it work.</h2>
+                    <img class="work-sub-img" src="../assets/images/work-img.png" alt="Work Image">
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-12">
+                    <img class="work-img" src="../assets/images/text-img.png" alt="Work-Image">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- work_page_end  -->
+
+<!-- service_page_start -->
+
+<section id="service">
+    <div class="service_page py_0">
+        <div class="container">
+            <h2>Our Services</h2>
+
+
+
+            <div id="owl-example" class="owl-carousel owl-theme">
+                <div class="thumbnail item">
+                    <a href="/">
+                        <mat-card class="mat-elevation-z4">
+                            <img src="assets/images/s1.png" class="img-responsive" />
+                            <mat-card-content>
+                                <div class="set">
+                                    <p style="font-weight: 600;">{{slideheading1}}</p>
+                                    <button mat-raised-button color="primary" class="studio">Studio</button>
+                                </div>
+                                <div class="price">
+                                    <p class="flex-text">From $228,800 or $1,679</p>
+                                </div>
+                            </mat-card-content>
+                        </mat-card>
+                    </a>
+                </div>
+
+                <div class="thumbnail item">
+                    <a href="/">
+                        <mat-card class="mat-elevation-z4">
+                            <img src="assets/images/s2.png" class="img-responsive" />
+                            <mat-card-content>
+                                <div class="set">
+                                    <p style="font-weight: 600;">{{slideheading1}}</p>
+                                    <button mat-raised-button color="primary" class="studio">Studio</button>
+                                </div>
+                                <div class="price">
+                                    <p class="flex-text">From $300,800 or $2,679</p>
+                                </div>
+                            </mat-card-content>
+                        </mat-card>
+                    </a>
+                </div>
+
+                <div class="thumbnail item">
+                    <a href="/">
+                        <mat-card class="mat-elevation-z4">
+                            <img src="assets/images/s3.png" class="img-responsive" />
+                            <mat-card-content>
+                                <div class="set">
+                                    <p style="font-weight: 600;">{{slideheading1}}</p>
+                                    <button mat-raised-button color="primary" class="studio">Studio</button>
+                                </div>
+                                <div class="price">
+                                    <p class="flex-text">From $390,870 or $2,679</p>
+                                </div>
+                            </mat-card-content>
+                        </mat-card>
+                    </a>
+                </div>
+
+                <div class="thumbnail item">
+                    <a href="/">
+                        <mat-card class="mat-elevation-z4">
+                            <img src="assets/images/s1.png" class="img-responsive" />
+                            <mat-card-content>
+                                <div class="set">
+                                    <p style="font-weight: 600;">{{slideheading1}}</p>
+                                    <button mat-raised-button color="primary" class="studio">Studio</button>
+                                </div>
+                                <div class="price">
+                                    <p class="flex-text">From $300,800 or $2,679</p>
+                                </div>
+                            </mat-card-content>
+                        </mat-card>
+                    </a>
+                </div>
+
+                <div class="thumbnail item">
+                    <a href="/">
+                        <mat-card class="mat-elevation-z4">
+                            <img src="assets/images/s2.png" class="img-responsive" />
+                            <mat-card-content>
+                                <div class="set">
+                                    <p style="font-weight: 600;">{{slideheading1}}</p>
+                                    <button mat-raised-button color="primary" class="studio">Studio</button>
+                                </div>
+                                <div class="price">
+                                    <p class="flex-text">From $300,800 or $2,679</p>
+                                </div>
+                            </mat-card-content>
+                        </mat-card>
+                    </a>
+                </div>
+
+                <div class="thumbnail item">
+                    <a href="/">
+                        <mat-card class="mat-elevation-z4">
+                            <img src="assets/images/s3.png" class="img-responsive" />
+                            <mat-card-content>
+                                <div class="set">
+                                    <p style="font-weight: 600;">{{slideheading1}}</p>
+                                    <button mat-raised-button color="primary" class="studio">Studio</button>
+                                </div>
+                                <div class="price">
+                                    <p class="flex-text">From $300,800 or $2,679</p>
+                                </div>
+                            </mat-card-content>
+                        </mat-card>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- service_page_end -->
+
+<!-- home_page_start -->
+<section>
+    <div class="home_page py_0">
+        <div class="container">
+            <h2>Home Redesigned</h2>
+            <div class="home-cards row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="card-box">
+                        <mat-card class="example-card">
+                            <mat-card-header>
+                                <mat-card-title style="font-family: public sans;">Proin gravida</mat-card-title>
+                            </mat-card-header>
+                            <mat-card-content>
+                                <p>{{longText}}</p>
+                            </mat-card-content>
+                            <div class="how-its-work-btn">
+                                <a mat-flat-button href="/" target="_blank" class="how-work-btn-txt">How it work</a>
+                            </div>
+                        </mat-card>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="card-box">
+                        <mat-card class="example-card">
+                            <mat-card-header>
+                                <mat-card-title style="font-family: public sans;">Proin gravida</mat-card-title>
+                            </mat-card-header>
+                            <mat-card-content>
+                                <p>{{longText}}</p>
+                            </mat-card-content>
+                            <div class="how-its-work-btn">
+                                <a mat-flat-button href="/" target="_blank" class="how-work-btn-txt">How it work</a>
+                            </div>
+                        </mat-card>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="card-box">
+                        <mat-card class="example-card">
+                            <mat-card-header>
+                                <mat-card-title style="font-family: public sans;">Proin gravida</mat-card-title>
+                            </mat-card-header>
+                            <mat-card-content>
+                                <p>{{longText}}</p>
+                            </mat-card-content>
+                            <div class="how-its-work-btn">
+                                <a mat-flat-button href="/" target="_blank" class="how-work-btn-txt">How it work</a>
+                            </div>
+                        </mat-card>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- home_page_end -->
+
+<!-- project_page_start -->
+<section>
+    <div class="project_page py_0">
+        <div class="container">
+            <h2>Our Completed <span>Projects</span></h2>
+
+            <div class="project-slider">
+
+                <div id="owl-example1" class="owl-carousel owl-theme">
+                    <div class="thumbnail item">
+                        <a href="/">
+                            <mat-card class="mat-elevation-z4">
+                                <img src="assets/images/p1.png" class="pro-img" />
+                                <mat-card-content>
+                                    <div class="completed">
+                                        <div class="pro-title">
+                                            <p class="project-title">{{title1}}</p>
+                                            <div class="date">
+                                                <p style="opacity: 50%;">{{date}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="project-text">
+                                            <p class="pro-text">{{description}}</p>
+                                        </div>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                        </a>
+                    </div>
+
+                    <div class="thumbnail item">
+                        <a href="/">
+                            <mat-card class="mat-elevation-z4">
+                                <img src="assets/images/p2.png" class="pro-img" />
+                                <mat-card-content>
+                                    <div class="completed">
+                                        <div class="pro-title">
+                                            <p class="project-title">{{title1}}</p>
+                                            <div class="date">
+                                                <p style="opacity: 50%;">{{date}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="project-text">
+                                            <p class="pro-text">{{description}}</p>
+                                        </div>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                        </a>
+                    </div>
+
+                    <div class="thumbnail item">
+                        <a href="/">
+                            <mat-card class="mat-elevation-z4">
+                                <img src="assets/images/p3.png" class="pro-img" />
+                                <mat-card-content>
+                                    <div class="completed">
+                                        <div class="pro-title">
+                                            <p class="project-title">{{title1}}</p>
+                                            <div class="date">
+                                                <p style="opacity: 50%;">{{date}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="project-text">
+                                            <p class="pro-text">{{description}}</p>
+                                        </div>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                        </a>
+                    </div>
+
+                    <div class="thumbnail item">
+                        <a href="/">
+                            <mat-card class="mat-elevation-z4">
+                                <img src="assets/images/p1.png" class="pro-img" />
+                                <mat-card-content>
+                                    <div class="completed">
+                                        <div class="pro-title">
+                                            <p class="project-title">{{title1}}</p>
+                                            <div class="date">
+                                                <p style="opacity: 50%;">{{date}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="project-text">
+                                            <p class="pro-text">{{description}}</p>
+                                        </div>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                        </a>
+                    </div>
+
+                    <div class="thumbnail item">
+                        <a href="/">
+                            <mat-card class="mat-elevation-z4">
+                                <img src="assets/images/p2.png" class="pro-img" />
+                                <mat-card-content>
+                                    <div class="completed">
+                                        <div class="pro-title">
+                                            <p class="project-title">{{title1}}</p>
+                                            <div class="date">
+                                                <p style="opacity: 50%;">{{date}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="project-text">
+                                            <p class="pro-text">{{description}}</p>
+                                        </div>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                        </a>
+                    </div>
+
+                    <div class="thumbnail item">
+                        <a href="/">
+                            <mat-card class="mat-elevation-z4">
+                                <img src="assets/images/p3.png" class="pro-img" />
+                                <mat-card-content>
+                                    <div class="completed">
+                                        <div class="pro-title">
+                                            <p class="project-title">{{title1}}</p>
+                                            <div class="date">
+                                                <p style="opacity: 50%;">{{date}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="project-text">
+                                            <p class="pro-text">{{description}}</p>
+                                        </div>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+<!--project_page_end  -->
+
+<!-- feedback-page-start -->
+<section>
+    <div class="feedback-page py_0">
+        <div class="container">
+            <div class="row">
+                <div class=" col-xl-6 col-lg-6 col-md-12 col-12">
+                    <h3>Testimonials</h3>
+                    <h2>Proin gravida nibh vel velit auctor</h2>
+
+
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-12 col-12">
+                    <!-- <owl-carousel-o [options]="carouselOptions">
+                        <ng-container *ngFor="let feedback of feedbackList">
+                            <ng-template carouselSlide>
+                                <div class="feed">
+                                    <div class="feed-container">
+                                        <img class="feed-img" [src]="feedback.image" alt="Feedback Image">
+                                        <div class="txt-feed">
+                                            <div class="star">
+                                                <i class="fa-solid fa-star" *ngFor="let star of feedback.stars"></i>
+                                            </div>
+                                            <p class="feed-title">{{ feedback.title }}</p>
+                                            <p class="name">{{ feedback.location }}</p>
+                                            <p class="feed-text" style="font-style: italic;">{{ feedback.text }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ng-container>
+                    </owl-carousel-o> -->
+
+                    <div id="owl-example3" class="owl-carousel owl-theme">
+
+                        <div class="thumbnail item">
+                            <mat-card>
+
+                                <div class="feed">
+                                    <img src="assets/images/f1.png" class="feed-img" />
+                                    <mat-card-content>
+                                        <div class="txt-feed">
+                                            <div class="star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p class="feed-title">{{feedtitle}}</p>
+                                            <p class="name">{{ feedname}}</p>
+                                            <p class="feed-text" style="font-style: italic;">{{ feedtext }}</p>
+                                        </div>
+                                    </mat-card-content>
+                                </div>
+
+                            </mat-card>
+                        </div>
+
+                        <div class="thumbnail item">
+                            <mat-card>
+
+                                <div class="feed">
+                                    <img src="assets/images/f1.png" class="feed-img" />
+                                    <mat-card-content>
+                                        <div class="txt-feed">
+                                            <div class="star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p class="feed-title">{{feedtitle}}</p>
+                                            <p class="name">{{ feedname}}</p>
+                                            <p class="feed-text" style="font-style: italic;">{{ feedtext }}</p>
+                                        </div>
+                                    </mat-card-content>
+                                </div>
+
+                            </mat-card>
+                        </div>
+
+                        <div class="thumbnail item">
+                            <mat-card>
+
+                                <div class="feed">
+                                    <img src="assets/images/f1.png" class="feed-img" />
+                                    <mat-card-content>
+                                        <div class="txt-feed">
+                                            <div class="star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p class="feed-title">{{feedtitle}}</p>
+                                            <p class="name">{{ feedname}}</p>
+                                            <p class="feed-text" style="font-style: italic;">{{ feedtext }}</p>
+                                        </div>
+                                    </mat-card-content>
+                                </div>
+
+                            </mat-card>
+                        </div>
+
+                        <div class="thumbnail item">
+                            <mat-card>
+
+                                <div class="feed">
+                                    <img src="assets/images/f1.png" class="feed-img" />
+                                    <mat-card-content>
+                                        <div class="txt-feed">
+                                            <div class="star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p class="feed-title">{{feedtitle}}</p>
+                                            <p class="name">{{ feedname}}</p>
+                                            <p class="feed-text" style="font-style: italic;">{{ feedtext }}</p>
+                                        </div>
+                                    </mat-card-content>
+                                </div>
+
+                            </mat-card>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- feedback-page-end -->
+
+<!-- Subscribe-page start-->
+<section>
+    <div class="Subscribe-page py_0">
+        <div class="container">
+            <div class="row subsribe-container">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="subscribe-img-contain">
+                        <img class="subsribe-img" src="../assets/images/home-img.png" alt="Subsribe Image">
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="subsribe-text">
+                        <h2>Proin gravida nibh vel velit auctor</h2>
+                        <p>{{SubscribeText}}</p>
+
+
+                        <div class="email-container" style="display: flex; align-items: center; gap: 0;">
+                            <span class="material-symbols-outlined">mail</span>
+                            <!-- <input type="email" placeholder="Your email address" class="custom-email-input" /> -->
+                            <input matInput class="text" placeholder="Your email address">
+                            <div class="subscribe-btn">
+                                <a mat-flat-button href="/" target="_blank" class="subscribe-btn-txt">Subscribe</a>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Subscribe-page-end-->

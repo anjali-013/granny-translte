@@ -1,0 +1,40 @@
+<!-- welcome pg_start -->
+<section>
+    <div class="welcome py_0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="banner-text">
+              <h1 class="heading1">
+                Welcome to <span>Granny Flats</span>
+              </h1>
+              <p class="small">
+                At Granny Flats, we specialize in delivering high-quality, pre-constructed tiny homes designed to meet your lifestyle needs.
+              </p>
+              <a href="#" (click)="onGetStarted()">
+                <button type="button" class="btn">Get Started <i class="fa-solid fa-arrow-right"></i></button>
+              </a>
+            </div>
+            <div class="banner-img">
+              <div class="banner-img1" *ngFor="let img of images">
+                <a href="#">
+                  <img [src]="img.src" [alt]="img.alt" class="img1" />
+                </a>
+                <p>{{ img.text }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="b1">
+              <div class="flat-img">
+                <img [src]="bannerImage" class="image" alt="Banner Image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- welcome pg_end -->

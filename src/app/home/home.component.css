@@ -1,0 +1,1410 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+.wel-text {
+    background-color: white;
+    padding: 20px 28px 30px 30px;
+    border-radius: 50px;
+}
+
+.wel-text p {
+    margin-left: 10px;
+    text-transform: math-auto;
+}
+
+h1 {
+    color: #1f1f1f;
+    text-transform: capitalize;
+    font-size: 90px;
+    font-weight: 600;
+    margin: 0px 10px 10px;
+}
+
+h1 span {
+    color: #208678;
+}
+
+.get-start-btn {
+    margin-bottom: 20px;
+}
+
+.get-start-btn:hover {
+    background-color: #208678;
+}
+
+.get-start-btn {
+    height: 60px;
+    width: 240px;
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4B4B4B;
+}
+
+a.get-btn-txt {
+    font-family: public sans;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+i.fa-solid.fa-arrow-right {
+    margin-left: 10px;
+}
+
+.wel_sub-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 0px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+img.img1 {
+    width: 74px;
+    height: 70px;
+    margin-left: 40px;
+}
+
+.wel_sub-img p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.wel-img {
+    background-color: white;
+    border-radius: 50px;
+}
+
+img.image {
+    padding: 0px 33px 70px;
+    width: 100%;
+}
+
+/* welcome_page_end */
+
+/* work_page_start */
+
+
+img.work-sub-img {
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+img.work-sub-img {
+    width: 800px;
+    height: 630px;
+}
+
+
+
+img.work-img {
+    width: 100%;
+}
+
+.work-page {
+    background-color: white;
+}
+
+/* work_page_end */
+
+/* service_page_start */
+.service_page h2 {
+    text-align: center;
+}
+
+
+/* service_page_end */
+
+/* home_page_start */
+.home_page h2 {
+    text-align: center;
+}
+
+.example-card {
+    max-width: 400px;
+}
+
+.example-card-footer {
+    padding: 16px;
+}
+
+.how-its-work-btn:hover {
+    background-color: #208678;
+}
+
+.how-its-work-btn {
+    height: 60px;
+    width: 230px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4B4B4B;
+}
+
+a.how-work-btn-txt {
+    font-family: public sans;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.home_page p {
+    text-align: center;
+    font-family: public sans;
+    margin-bottom: 20px !important;
+    margin-top: 10px !important;
+}
+
+.home_page {
+    background-color: white;
+}
+
+.card-box {
+    text-align: center;
+    box-shadow: -3px 5px 10px rgba(0, 0, 0, .2);
+    padding: 0px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* home_page_end */
+
+/* project-page-start */
+
+.project_page span {
+    display: block;
+}
+
+.project-slider {
+    display: flex;
+}
+
+.project_page h2 {
+    margin-bottom: 20px !important;
+}
+
+/* project-page-end */
+
+/* feedback-page-start */
+.feedback-page h3 {
+    font-size: 40px;
+    color: #208678;
+    font-weight: 400;
+    margin-left: 13% !important;
+    position: relative;
+    top: 22%;
+    margin-bottom: 10px !important;
+    text-transform: uppercase;
+}
+
+.feedback-page h3:before {
+    position: absolute;
+    content: "";
+    left: -14%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 13%;
+    height: 2px;
+    background-color: #208678;
+}
+
+.feedback-page h2 {
+    margin-left: auto;
+    padding: 125px 0;
+}
+
+/* feedback-page-end */
+
+/*  */
+.Subscribe-page {
+    background-color: white;
+
+}
+
+.subsribe-text p {
+    font-weight: 500 !important;
+    color: white;
+    margin-bottom: 15px !important;
+    text-transform: capitalize;
+}
+
+.subsribe-container {
+    background-color: #208678;
+    border-radius: 20px;
+    padding: 40px 0;
+}
+
+img.subsribe-img {
+    width: 100%;
+}
+
+.subsribe-text {
+    padding: 0 0;
+}
+
+.subscribe-btn:hover {
+    background-color: #208678;
+}
+
+input#mat-input-0 {
+    padding-left: 35px;
+    height: 50px;
+    font-size: 18px;
+    font-family: public sans;
+    width: 270px;
+}
+
+
+input {
+    outline: none;
+    box-shadow: none;
+    border: none;
+
+}
+
+.subscribe-btn {
+    height: 50px;
+    width: 163px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1f1f1f;
+    background-color: #4B4B4B;
+}
+
+a.subscribe-btn-txt {
+    font-family: public sans;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+span.material-symbols-outlined {
+    padding-left: 5px;
+    opacity: 30%;
+    position: absolute;
+}
+
+
+@media (max-width: 1281px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    .get-start-btn {
+        height: 60px;
+        width: 225px;
+    }
+
+    .wel-text p {
+        margin-bottom: 20px !important;
+        font-size: 20px;
+    }
+
+    .wel_sub-img {
+        padding: 25px 30px 0px;
+    }
+
+    .wel_sub-img p {
+        font-size: 23px;
+    }
+
+    img.image {
+        padding: 15px 33px 67px;
+    }
+
+    img.work-sub-img {
+        width: 710px;
+        height: 540px;
+    }
+
+    .subsribe-text h2 {
+        font-size: 50px !important;
+    }
+
+    h2 {
+        font-size: 60px !important;
+    }
+
+    p.pro-text {
+        font-size: 20px !important;
+    }
+
+    .feedback-page h3 {
+        font-size: 38px;
+    }
+
+    .subsribe-text p {
+        font-size: 21px !important;
+    }
+
+    .feedback-page h3 {
+        font-size: 34px;
+        margin-bottom: 20px !important;
+    }
+
+    p.project-title {
+        font-size: 18px !important;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    h1 {
+        font-size: 68px;
+        margin: 0px 0px 10px !important;
+    }
+
+    .wel-text p {
+        margin-left: 0 !important;
+        font-size: 17px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .wel-text {
+        padding: 20px 25px 30px 30px !important;
+    }
+
+    a.how-work-btn-txt {
+        font-size: 16px !important;
+    }
+
+    a.get-btn-txt {
+        margin-left: 0 !important;
+        font-size: 16px !important;
+    }
+
+    .get-start-btn {
+        height: 50px;
+        width: 200px;
+    }
+
+    .wel_sub-img p {
+        font-size: 17px !important;
+    }
+
+    img.work-sub-img {
+        height: 460px !important;
+        width: 565px;
+    }
+
+    img.img1 {
+        width: 65px !important;
+        height: 65px !important;
+        margin-left: 22px !important;
+    }
+
+    img.image {
+        padding: 70px 40px 75px;
+    }
+
+    .subscribe-btn {
+        width: 130px;
+        margin-left: -30px;
+    }
+
+    h2 {
+        font-size: 50px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .set p {
+        font-size: 18px !important;
+        margin-bottom: 0px !important;
+    }
+
+    button.studio {
+        margin-right: 15px !important;
+        margin-top: 2px !important;
+        font-size: 15px !important;
+    }
+
+    .price p {
+        font-size: 14px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .home_page p {
+        margin-top: 0px !important;
+        font-size: 18px !important;
+    }
+
+    .how-its-work-btn[_ngcontent-ng-c182552770] {
+        height: 50px;
+        width: 180px;
+    }
+
+    .how-its-work-btn[_ngcontent-ng-c4244100165] {
+        height: 45px;
+        width: 170px;
+    }
+
+    .project_page .owl-item.active.center img {
+        height: 400px;
+        height: 300px !important;
+    }
+
+    p.pro-text {
+        font-size: 18px !important;
+        padding: 0 35px !important;
+    }
+
+    .date p {
+        font-size: 16px !important;
+    }
+
+    p.project-title:before {
+        left: -25px !important;
+        width: 20px !important;
+    }
+
+    .feedback-page h3 {
+        font-size: 29px !important;
+        margin-left: 13% !important;
+        top: 23% !important;
+    }
+
+    .name {
+        font-size: 16px !important;
+    }
+
+    .feed-text {
+        font-size: 16px !important;
+
+    }
+
+    .feed-title {
+        font-size: 22px !important;
+    }
+
+    .star {
+        font-size: 13px;
+    }
+
+    .feed {
+        margin-right: 5px !important;
+        margin-left: 5px !important;
+    }
+
+    .feed-container {
+        margin-top: -15% !important;
+    }
+
+    .feed {
+
+        margin-top: 15% !important;
+        width: 96% !important;
+    }
+
+    input#mat-input-0 {
+        font-size: 16px
+    }
+
+    .subsribe-text h2 {
+        font-size: 40px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .subsribe-text p {
+        font-size: 17px !important;
+        margin-bottom: 15px !important;
+    }
+
+    a.subscribe-btn-txt {
+        font-size: 15px !important;
+
+    }
+
+    .subsribe-container {
+        padding: 30px 0 !important;
+    }
+}
+
+@media (max-width: 1025px) {
+    .get-start-btn {
+        height: 50px !important;
+        width: 180px !important;
+    }
+
+    .how-its-work-btn {
+        height: 45px !important;
+        width: 170px !important;
+    }
+
+    .subsribe-text h2 {
+        font-size: 40px !important;
+    }
+
+    h2 {
+        font-size: 50px !important;
+    }
+
+    img.image {
+        padding: 30px 25px 45px 25px !important;
+    }
+
+    .name {
+        margin-bottom: 5px !important;
+    }
+
+    .feedback-page h3 {
+        font-size: 28px !important;
+    }
+
+    p.pro-text {
+        font-size: 17px !important;
+    }
+
+    p.project-title {
+        font-size: 15px !important;
+    }
+
+    input#mat-input-0 {
+        padding-left: 35px;
+        height: 40px;
+    }
+
+    .date p {
+        font-size: 15px !important;
+    }
+
+    .subscribe-btn {
+        height: 40px;
+    }
+
+    .feedback-page h3 {
+        margin-bottom: 5px !important;
+    }
+
+    h1 {
+        font-size: 60px !important;
+        margin: 0 0 0 !important;
+    }
+
+    p.project-title:before {
+        left: -32px !important;
+        width: 25px !important;
+    }
+
+    p.pro-text {
+        padding: 0 30px !important;
+    }
+
+    .get-start-btn {
+        margin-bottom: 5px !important;
+    }
+
+    .wel_sub-img p {
+        margin-bottom: 20px !important;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+    h1 {
+        font-size: 50px !important;
+    }
+
+    p.project-title {
+        left: 10% !important;
+    }
+
+    .home_page p {
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .price p {
+        font-size: 11px !important;
+    }
+
+    a.how-work-btn-txt {
+        padding: 7px 20px;
+    }
+
+    .wel-img {
+        margin-top: 20px;
+    }
+
+    img.image {
+        padding: 0px 70px 0px !important;
+    }
+
+    .wel-text {
+        padding: 20px 30px 30px 30px !important;
+    }
+
+    a.subscribe-btn-txt {
+        margin-left: 0% !important;
+    }
+
+    .wel_sub-img {
+        padding: 20px 50px 0px;
+    }
+
+    img.work-img {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .how-its-work-btn {
+        height: 45px;
+        width: 170px;
+    }
+
+    img.work-sub-img {
+        height: 470px !important;
+        width: 650px;
+        position: static;
+    }
+
+    .set p {
+        font-size: 15px !important;
+    }
+
+    p.project-title:before {
+        left: -18px !important;
+        width: 16px !important;
+        height: 1px;
+    }
+
+    p.project-title {
+        font-size: 14px !important;
+    }
+
+    .feedback-page h3:before {
+        left: -7%;
+        top: 50%;
+        width: 6.5%;
+    }
+
+    .feed-text {
+        font-size: 14px !important;
+        padding: 0 20px !important;
+    }
+
+    .feedback-page h3 {
+        font-size: 22px !important;
+        margin-left: 7% !important;
+        top: 13% !important;
+    }
+
+    img.subsribe-img {
+        padding: 0 20px;
+    }
+
+    .subsribe-text p {
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+        text-align: center;
+    }
+
+    .email-container {
+        justify-content: center !important;
+    }
+
+    p.project-title {
+        font-size: 11px !important;
+        margin-bottom: 3% !important;
+    }
+
+    .date p {
+        font-size: 11px !important;
+        margin-bottom: 0% !important;
+    }
+
+    p.pro-text {
+        font-size: 14px !important;
+        padding: 0 23px !important;
+    }
+
+    .feedback-page h2 {
+        padding: 0 0;
+    }
+
+    .name {
+        font-size: 14px !important;
+        margin-bottom: 5px !important;
+    }
+
+    button.studio {
+        margin-top: -3px !important;
+        font-size: 12px !important;
+        padding: 0 6px !important;
+    }
+
+    h2 {
+        font-size: 40px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .subsribe-text h2 {
+        font-size: 40px !important;
+        text-align: center;
+    }
+
+    span.material-symbols-outlined {
+        left: 27%;
+        padding-left: 0;
+    }
+
+}
+
+@media (max-width: 913px) {
+    span.material-symbols-outlined {
+        left: 30%;
+    }
+    input#mat-input-0[_ngcontent-ng-c4244100165] {
+        padding-left: 30px;
+    }
+    button.studio {
+        margin-right: 18px !important;
+    }
+}
+
+@media (max-width: 854px) {
+    span.material-symbols-outlined[_ngcontent-ng-c4244100165] {
+        left: 28.5%;
+    }
+}
+
+@media (max-width: 821px) {
+    span.material-symbols-outlined[_ngcontent-ng-c4244100165] {
+        left: 28%;
+        padding-left: 0;
+    }
+    input#mat-input-0[_ngcontent-ng-c4244100165][_ngcontent-ng-c4244100165] {
+        padding-left: 38px;
+    }
+}
+
+@media (max-width: 769px) {
+    span.material-symbols-outlined {
+        left: 27% !important;
+    }
+    img.work-sub-img {
+        height: 530px !important;
+        width: 680px;
+        position: static;
+    }
+    input#mat-input-0 {
+        padding-left: 36px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    img.work-img {
+        width: inherit;
+
+    }
+
+    .get-start-btn {
+        height: 40px !important;
+        width: 145px !important;
+    }
+
+    p.project-title {
+        left: 6% !important;
+    }
+
+    input#mat-input-0 {
+        height: 35px;
+        font-size: 13px;
+        width: 220px;
+        padding-left: 27px;
+    }
+
+    img.work-sub-img {
+        height: 390px !important;
+        width: 410px !important;
+    }
+
+    .wel_sub-img p {
+        font-size: 14px !important;
+    }
+
+    .feedback-page h3 {
+        font-size: 17px !important;
+        top: 5% !important;
+    }
+
+    .wel-text p {
+        font-size: 14px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .how-its-work-btn {
+        height: 40px !important;
+        width: 150px !important;
+    }
+
+    button.studio {
+        margin-right: 17px !important;
+    }
+
+    .subsribe-text p {
+        font-size: 14px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .get-start-btn {
+        margin-bottom: 25px;
+    }
+
+    .subsribe-text h2 {
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .home_page p {
+        font-size: 14px !important;
+    }
+
+    img.img1 {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .get-start-btn {
+        height: 40px;
+        width: 160px;
+    }
+
+    a.get-btn-txt {
+        font-size: 14px !important;
+    }
+
+    h2 {
+        font-size: 29px !important;
+    }
+
+    .wel_sub-img {
+        padding: 20px 40px 0px;
+    }
+
+    h1 {
+        font-size: 38px !important;
+    }
+
+    p.pro-text {
+        margin-bottom: 0px !important;
+    }
+
+    p.project-title {
+        margin-bottom: 2% !important;
+        left: 6%;
+    }
+
+    .feed {
+        margin-top: 6% !important;
+        width: 96% !important;
+    }
+
+    .feed-title {
+        font-size: 20px !important;
+    }
+
+    .name {
+        font-size: 13px !important;
+    }
+
+    .get-start-btn {
+        margin-bottom: 10px;
+    }
+
+    .feed-text {
+        font-size: 13px !important;
+
+    }
+
+    .subsribe-text p {
+        font-size: 13px !important;
+        margin-bottom: 15px !important;
+    }
+
+    a.subscribe-btn-txt {
+        font-size: 13px !important;
+    }
+
+    .subsribe-text h2 {
+        font-size: 23px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .subscribe-btn {
+        height: 36px;
+        width: 120px;
+    }
+
+    a.how-work-btn-txt {
+        font-size: 14px !important;
+    }
+
+    .material-symbols-outlined {
+        font-size: 20px !important;
+    }
+
+    span.material-symbols-outlined {
+        left: 14%;
+        padding-left: 0;
+    }
+
+    .feedback-page h3:before {
+        height: 1px;
+    }
+
+    .subsribe-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 541px) {
+    .card-box {
+        padding: 20px 15px 25px;
+        display: flex;
+        justify-content: center;
+    }
+
+    p.project-title {
+        left: 5% !important;
+    }
+
+    p.project-title:before {
+        left: -21px !important;
+        width: 18px !important;
+    }
+
+    span.material-symbols-outlined {
+        left: 22% !important;
+    }
+}
+
+@media (max-width: 431px) {
+
+    span.material-symbols-outlined {
+        left: 15% !important;
+    }
+
+    .feed-text {
+        padding: 0 20px !important;
+    }
+
+    img.work-sub-img {
+        height: 360px !important;
+        width: 410px !important;
+    }
+}
+
+@media (max-width: 415px) {
+    h2 {
+        font-size: 28px !important;
+    }
+
+    img.work-sub-img {
+        height: 370px !important;
+        width: 400px !important;
+    }
+
+    input#mat-input-0 {
+        height: 30px;
+        width: 200px;
+    }
+
+    .subscribe-btn {
+        height: 30px;
+        width: 100px;
+    }
+
+    span.material-symbols-outlined {
+        left: 18% !important;
+    }
+    input#mat-input-0[_ngcontent-ng-c4244100165] {
+        padding-left: 26px !important;
+    }
+    .subsribe-text h2 {
+        font-size: 22px !important;
+    }
+}
+
+@media (max-width: 413px) {
+    h1 {
+        font-size: 35px !important;
+    }
+
+    p.project-title {
+        left: 7% !important;
+    }
+
+    .feed {
+        margin-top: 8% !important;
+        width: 96% !important;
+    }
+}
+
+@media (max-width: 391px) {
+
+    p.project-title {
+        left: 7% !important;
+    }
+
+    .subscribe-btn {
+        width: 100px;
+    }
+
+    p.project-title:before {
+        left: -19px !important;
+        width: 17px !important;
+    }
+.material-symbols-outlined {
+        font-size: 15px !important;
+    }
+    h1 {
+        font-size: 32px !important;
+    }
+
+    h2 {
+        font-size: 26px !important;
+    }
+
+    a.how-work-btn-txt {
+        font-size: 13px !important;
+    }
+
+    .subscribe-btn {
+        width: 90px;
+    }
+
+    .home_page p {
+        font-size: 13px !important;
+    }
+
+    .feedback-page h3 {
+        font-size: 15px !important;
+    }
+    .subscribe-btn[_ngcontent-ng-c4244100165] {
+        height: 24px;
+        width: 75px;
+    }
+    input#mat-input-0[_ngcontent-ng-c4244100165] {
+        height: 24px;
+        font-size: 10px;
+        width: 160px;
+    }
+    input#mat-input-0[_ngcontent-ng-c4244100165][_ngcontent-ng-c4244100165] {
+        padding-left: 20px !important;
+    }
+
+    span.material-symbols-outlined[_ngcontent-ng-c4244100165] {
+        left: 24% !important;
+    }
+    a.subscribe-btn-txt[_ngcontent-ng-c4244100165] {
+        font-size: 12px !important;
+    }
+    input#mat-input-0 {
+        width: 170px;
+    }
+
+    .subsribe-text h2 {
+        font-size: 20px !important;
+    }
+
+    .card-box {
+        padding: 15px 15px 25px;
+    }
+
+    img.work-sub-img {
+        height: 360px !important;
+        width: 375px !important;
+    }
+
+}
+
+@media (max-width: 376px) {
+    h1 {
+        font-size: 29px !important;
+    }
+
+    .subsribe-container {
+        padding: 20px 0 !important;
+    }
+
+    .material-symbols-outlined {
+        font-size: 15px !important;
+    }
+    
+    .wel-text p {
+        font-size: 12px !important;
+        margin-bottom: 15px !important;
+    }
+
+    a.get-btn-txt {
+        font-size: 11px !important;
+    }
+
+    .wel-text {
+        padding: 20px 30px 20px 30px !important;
+    }
+
+    img.img1 {
+        width: 44px !important;
+        height: 44px !important;
+        margin-left: 15px !important;
+    }
+
+    .wel_sub-img p {
+        font-size: 12px !important;
+        margin-top: 7px;
+        margin-bottom: 20px !important;
+    }
+
+    input#mat-input-0 {
+        height: 24px;
+        font-size: 10px;
+        width: 170px;
+        padding-left: 22px !important;
+    }
+    .get-start-btn {
+        height: 30px !important;
+        width: 120px !important;
+    }
+
+    h2 {
+        font-size: 22px !important;
+    }
+
+    img.work-sub-img {
+        height: 330px !important;
+        width: 360px !important;
+    }
+
+    .set p {
+        font-size: 14px !important;
+        margin-left: 10px;
+    }
+
+    button.studio {
+        margin-right: 25px !important;
+    }
+    .home_page p {
+        font-size: 12px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .price p {
+        font-size: 11px !important;
+        margin-left: 10px;
+    }
+
+    .how-its-work-btn {
+        height: 30px !important;
+        width: 115px !important;
+    }
+
+    a.how-work-btn-txt {
+        font-size: 12px !important;
+    }
+
+    p.pro-text {
+        font-size: 13px !important;
+    }
+
+    .date p {
+        font-size: 10px !important;
+    }
+
+    p.project-title {
+        font-size: 10px !important;
+    }
+
+    p.project-title {
+        margin-bottom: 1% !important;
+    }
+
+    .feedback-page h3 {
+        font-size: 15px !important;
+    }
+
+    .feed-title {
+        font-size: 16px !important;
+    }
+
+    .name {
+        font-size: 11px !important;
+    }
+
+    .feed-text {
+        font-size: 11px !important;
+    }
+
+    .feed {
+        margin-top: 8% !important;
+    }
+
+    .subsribe-text h2 {
+        font-size: 20px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .subsribe-text p {
+        font-size: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    a.subscribe-btn-txt {
+        font-size: 10px !important;
+    }
+
+    .feedback-page h3 {
+        font-size: 13px !important;
+    }
+
+    .subscribe-btn {
+        height: 24px;
+        width: 85px;
+    }
+}
+
+@media (max-width: 361px) {
+    .subsribe-text h2 {
+        font-size: 19px !important;
+    }
+    img.work-sub-img {
+        height: 320px !important;
+        width: 345px !important;
+    }
+    .material-symbols-outlined{
+        font-size: 13px !important;
+    }
+    span.material-symbols-outlined[_ngcontent-ng-c4244100165][_ngcontent-ng-c4244100165] {
+        left: 23% !important;
+    }
+}
+
+@media (max-width: 345px) {
+    p.project-title {
+        left: 8% !important;
+    }
+
+    p.project-title:before {
+        left: -20px !important;
+        width: 18px !important;
+    }
+
+    .set p {
+        margin-left: 10px;
+    }
+    input#mat-input-0 {
+        width: 150px !important;
+        padding-left: 20px !important;
+    }
+    .price p {
+        margin-left: 10px;
+    }
+    span.material-symbols-outlined {
+        left: 23% !important;
+    }
+    button.studio {
+        margin-right: 27px !important;
+    }
+}
+
+@media (max-width: 321px) {
+    .wel-text {
+        padding: 20px 30px 20px 30px !important;
+    }
+    input#mat-input-0{
+        width: 160px !important;
+        padding-left: 18px !important;
+    }
+    .logo-img {
+        height: 15px !important;
+        width: 130px !important;
+    }
+
+    h1 {
+        font-size: 24px !important;
+    }
+
+    .wel-text p {
+        font-size: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    p.project-title {
+        left: 8% !important;
+    }
+    .get-start-btn {
+        margin-bottom: 15px;
+    }
+
+    .get-start-btn {
+        height: 27px;
+        width: 110px;
+    }
+
+    a.get-btn-txt {
+        font-size: 9px !important;
+    }
+   
+    span.material-symbols-outlined[_ngcontent-ng-c4244100165][_ngcontent-ng-c4244100165] {
+        left:22% !important;
+    }
+    .wel_sub-img p {
+        font-size: 10px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .get-start-btn {
+        height: 30px !important;
+        width: 100px !important;
+    }
+
+    img.img1 {
+        width: 40px !important;
+        height: 40px !important;
+        margin-left: 12px !important;
+    }
+    .material-symbols-outlined{
+        font-size: 13px !important;
+    }
+    h2 {
+        font-size: 20px !important;
+    }
+
+    img.work-sub-img {
+        height: 280px !important;
+        width: 300px !important;
+    }
+
+    .home_page p {
+        font-size: 11px !important;
+    }
+    .subscribe-btn{
+        width: 70px !important; 
+    }
+    .subsribe-text h2 {
+        font-size: 16px !important;
+    }
+
+    .subsribe-text p {
+        font-size: 8px !important;
+    }
+
+    .subscribe-btn {
+        margin-left: -45px;
+    }
+
+    .feedback-page h3 {
+        font-size: 12px !important;
+    }
+}

@@ -1,0 +1,246 @@
+
+
+ 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+
+.navbar {
+  background-color: #F3FCFB;
+  /* padding: 10px 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 30px;
+  width: 288px;
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  display: flex;
+}
+
+
+.navbar-item {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.navbar-link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0 6px 0 0;
+  border-radius: 5px;
+  font-family: 'Public Sans';
+}
+
+.navbar-link:hover {
+  color: #208678 !important;
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+
+}
+
+
+.sign-in-btn:hover {
+  background-color: #208678;
+}
+
+a.sign-btn-txt {
+  font-family: public sans;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.sign-in-btn {
+  height: 45px;
+  width: 145px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b4b4b;
+}
+
+@media (max-width: 1281px) {
+.logo-img {
+  height: 25px;
+  width: 240px;
+}
+
+}
+
+@media (max-width: 1199px) {
+  .logo-img {
+    height: 22px !important;
+    width: 210px !important;
+
+  }
+
+  .sign-in-btn {
+    height: 40px;
+    width: 135px;
+    margin-left: 15px;
+  }
+
+  .navbar-link {
+    font-size: 17px !important;
+    padding: 0;
+  }
+
+  .navbar-item {
+    margin-left: 15px !important;
+    padding-left: 0% !important;
+  }
+
+  a.sign-btn-txt {
+
+    font-size: 17px !important;
+
+  }
+
+  .navbar-item {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 1025px) {
+  li.navbar-item {
+    margin-top: 7px !important;
+}
+.sign-in-btn {
+  width: 130px;
+}
+}
+
+@media (max-width: 991px) {
+  .navbar-links {
+    background-color: white;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .sign-in-btn {
+    height: 35px;
+    width: 120px;
+    margin-left: 0;
+}
+.navbar-collapse {
+  margin-top: 10px;}
+
+  .navbar-links {
+    align-items: center;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+
+  .navbar-links .navbar-item .navbar-link:hover {
+    text-decoration: done;
+
+  }
+
+  .navbar-expand-lg .navbar-links .navbar-link {
+    padding: 0;
+    margin-top: 0;
+    font-size: 15px;
+  }
+
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  button.navbar-toggler {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .navbar-toggler:hover {
+    text-decoration: auto;
+  }
+
+
+}
+
+@media (max-width: 575px) {
+  .navbar-links{
+  border-radius: 0px;
+  align-items: center;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 0px;
+}
+.sign-in-btn[_ngcontent-ng-c3983500637] {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.logo-img {
+  height: 17px !important;
+  width: 160px !important;
+}
+.sign-in-btn {
+  height: 30px;
+  width: 110px;
+  margin-bottom: 20px;
+}
+a.sign-btn-txt{
+  font-size: 13px !important;
+}
+.navbar-expand-lg .navbar-links .navbar-link {
+  font-size: 13px !important;
+}
+}
+
+@media (max-width: 376px) {
+  .logo-img {
+    height: 14px !important;
+    width: 135px !important;
+}
+.navbar-expand-lg .navbar-links .navbar-link {
+  font-size: 13px !important;
+}
+.sign-in-btn {
+  width: 100px;
+}
+a.sign-btn-txt {
+  font-size: 13px !important;
+}
+}
+
+@media (max-width: 321px) {
+  .logo-img {
+    height: 12px !important;
+    width: 110px !important;
+}  
+} 
